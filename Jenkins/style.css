@@ -1,0 +1,820 @@
+body {
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+}
+
+    @font-face {
+        font-family: "Glasgow-Medium";
+        src: url("fonts/Glasgow-Medium.eot") format("eot"),
+        url("fonts/Glasgow-Medium.woff") format("woff"),
+        url("fonts/Glasgow-Medium.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Georgia-Italic";
+        src: url("fonts/Georgia-Italic.eot") format("eot"),
+        url("fonts/Georgia-Italic.woff") format("woff"),
+        url("fonts/Georgia Italic.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "HelveticaNeueCyr-Medium";
+        src: url("fonts/HelveticaNeueCyr-Medium.eot") format("eot"),
+        url("fonts/HelveticaNeueCyr-Medium.woff") format("woff"),
+        url("fonts/HelveticaNeueCyr-Medium.otf");
+    }
+
+    @font-face {
+        font-family: "OfficinaSansCTT-Bold";
+        src: url("fonts/OfficinaSansCTT-Bold.eot") format("eot"),
+        url("fonts/OfficinaSansCTT-Bold.woff") format("woff"),
+        url("fonts/OfficinaSansCTT-Bold.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "InterstatePlus-Black";
+        src: url("fonts/InterstatePlus-Black.eot") format("eot"),
+        url("fonts/InterstatePlus-Black.woff") format("woff"),
+        url("fonts/InterstatePlus-Black.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Georgia Regular";
+        src: url("fonts/Georgia Regular.eot") format("eot"),
+        url("fonts/Georgia Regular.woff") format("woff"),
+        url("fonts/Georgia Regular.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "FranklinGothicLT-MedCnd";
+        src: url("fonts/FranklinGothicLT-MedCnd.eot") format("eot"),
+        url("fonts/FranklinGothicLT-MedCnd.woff") format("woff"),
+        url("fonts/FranklinGothicLT-MedCnd.ttf") format("truetype");
+    }
+
+    u {
+        color: #2B5E5E;
+    }
+
+    #main_table {
+        background-color: rgb(238,233,218);
+        height: 2205px;
+        margin: auto;
+        position: relative;
+        width: 1000px;
+    }
+
+        .header {
+            height: 120px;
+            float: left;
+            margin: 20px 90px 30px 85px;
+            width: 825px;
+        }
+
+            .header_left {
+                height: 70px;
+                float: left;
+                margin-top: 60px;
+                position: relative;
+                width: 250px;
+            }
+
+                .corked {
+                    color: #6D0024;
+                    float: left;
+                    font-family: Glasgow-Medium;
+                    font-size: 39px;
+                    height: 40px;
+                    margin-left: 3px;
+                    position: relative;
+                }
+
+                .unique_resource {
+                    color: rgb(163,155,130);
+                    float: left;
+                    font-family:Georgia-Italic;
+                    font-size: 12px;
+                    height: 13px;
+                    margin: 5px 0 0 71px;
+                }
+
+            .header_center {
+                float: left;
+                height: 110px;
+                margin: 12px 0 0 60px;
+                position: relative;
+                width: 260px;
+            }
+
+                .latest {
+                    color: #6D0024;
+                    float: left;
+                    font-family: Arial;
+                    font-style: inherit;
+                    font-size: 17px;
+                    height: 18px;
+                    position: relative;
+                }
+
+                .main_text {
+                    color: rgb(43,94,94);
+                    float: left;
+                    font-family:Georgia-Italic;
+                    font-size: 11px;
+                    height: 11px;
+                    line-height: 20px;
+                    margin: 13px 0 0 2px;
+                    width: 290px;
+                }
+
+            .header_right {
+                float: left;
+                height: 110px;
+                position: relative;
+                width: 235px;
+            }
+
+                .search {
+                    background-image: linear-gradient(to top, #F2F2F2 0%, #FFFFFF 100%);
+                    border-radius: 3px;
+                    height: 34px;
+                    margin: 15px 0 0 58px;
+                    width: 195px;
+                }
+
+                    .search_text {
+                        border-right: 1px solid gray;
+                        color: rgb(139,139,139);
+                        float: left;
+                        font-family:Georgia-Italic;
+                        font-size: 12px;
+                        height: 14px;
+                        margin: 10px 0 0 14px;
+                        width: 150px;
+                    }
+
+                    .magnifier {
+                        background-image: url("images/magnifier.png");
+                        float: left;
+                        height: 12px;
+                        margin: 11px 0 0 9px ;
+                        width: 12px;
+                    }
+
+                .blog_text {
+                    color: rgb(149,144,131);
+                    float: right;
+                    font-family:Georgia-Italic;
+                    font-size: 11px ;
+                    height: 42px;
+                    line-height: 15px;
+                    margin: 20px -19px 0 0;
+                    text-align: right;
+                    width: 222px;
+                }
+
+        .wine_bar {
+            background-image: linear-gradient(to top, #0F0F0F 0%, #2F2F2F 100%);
+            border-radius: 3px;
+            float: left;
+            height: 55px;
+            margin: 8px 0 0 84px;
+            position: relative;
+            width: 825px;
+        }
+
+            .choice {
+                color: rgb(237,237,237);
+                float: left;
+                font-family:HelveticaNeueCyr-Medium;
+                font-size: 14px;
+                height: 55px;
+                line-height: 53px;
+                margin-left:27px;
+                text-align: center;
+                width: auto;
+            }
+
+            .point {
+                background-color: rgb(192,51,94);
+                border-radius: 5px;
+                float: left;
+                height: 5px;
+                margin: 25px -16px 0 13px;
+                width: 5px;
+            }
+
+        .landscape {
+            background-image: url("images/landscape.png");
+            float: left;
+            height: 241px;
+            margin: 2px 0 0 -13px;
+            position: relative;
+            width: 825px;
+        }
+
+            .bottle_of_wine {
+                background-image: url("images/bottle-of-wine.png");
+                float: left;
+                height: 240px;
+                margin: 18px 0 0 43px;
+                position: relative;
+                width: 87px;
+                z-index: 2;
+            }
+
+                .wine_text {
+                    float: left;
+                    height: 75px;
+                    margin: 102px 0 0 -28px;
+                    position: relative;
+                    width: 350px;
+                }
+
+                    .corked2 {
+                        background-color: rgba(2,2,2, 0.8);
+                        color: #fff;
+                        float: left;
+                        font-family: Glasgow-Medium;
+                        font-size: 49px;
+                        height: 60px;
+                        line-height: 58px;
+                        padding-left: 3px;
+                        position: relative;
+                        text-align: center;
+                        width: 345px;
+                        z-index: 1;
+                    }
+
+                    .unique_resource2 {
+                        background-color: rgba(2,2,2, 0.8);
+                        color: rgb(163,155,130);
+                        float: left;
+                        font-family:Georgia-Italic;
+                        font-size: 12px;
+                        height: 21px;
+                        margin-left:17px;
+                        text-align: center;
+                        width: 190px;
+                    }
+
+        .arrow1 {
+            float: left;
+            height: 35px;
+            margin: 89px 0 0 43px;
+            position: relative;
+            width: 54px;
+        }
+
+        .arrow2 {
+            float: right;
+            height: 35px;
+            margin: 89px 33px 0 0;
+            position: relative;
+            width: 25px;
+        }
+
+            .arrow_left {
+                background-image: url("images/arrow_left.png");
+                height: 17px;
+                width: 10px;
+            }
+
+            .arrow_right {
+                background-image: url("images/arrow_right.png");
+                height: 17px;
+                width: 10px;
+            }
+
+            .arrow_text {
+                color: rgb(95,91,80);
+                font-family: OfficinaSansCTT-Bold;
+                font-size: 10px;
+                margin: 6px 0 0 -5px;
+            }
+
+        .middle {
+            float: left;
+            height: 400px;
+            margin: 46px 0 0 84px;
+            position: relative;
+            width: 825px;
+        }
+
+            .middle_left {
+                float: left;
+                height: 400px;
+                width: 232px;
+            }
+
+                .middle_left_top {
+                    background-image: url("images/MonacoRestaurants.png");
+                    float: left;
+                    height: 133px;
+                    width: 233px;
+                }
+
+                    .name_image {
+                        background-color: rgba(2,2,2, 0.9);
+                        color: #fff;
+                        float: right;
+                        font-family: Arial;
+                        font-size: 18px;
+                        height: 28px;
+                        line-height: 28px;
+                        text-align: center;
+                        width: 179px;
+                    }
+
+                    .number {
+                        background-color: rgba(2,2,2, 0.8);
+                        border-radius: 20px;
+                        color: #fff;
+                        float: right;
+                        font-family: InterstatePlus-Black;
+                        font-size: 9px;
+                        height: 20px;
+                        line-height: 18px;
+                        margin: 106px -173px 0 0;
+                        text-align: center;
+                        width: 20px;
+                    }
+
+                .middle_left_center {
+                    background-image: url("images/Wine_&_Meat.png");
+                    float: left;
+                    height: 133px;
+                    margin-top: 5px;
+                    width: 233px;
+                }
+
+                    .name_image1 {
+                        background-color: rgba(2,2,2, 0.9);
+                        float: right;
+                        height: 28px;
+                        width: 142px;
+                    }
+
+                        .play {
+                            background-image: url("images/play.png");
+                            float: left;
+                            height: 17px;
+                            margin: 6px 0 0 7px;
+                            width: 17px;
+                        }
+
+                        .play_text {
+                            color: #fff;
+                            float: left;
+                            font-family: Arial;
+                            font-size: 18px;
+                            height: 28px;
+                            line-height: 28px;
+                            margin-left: 6px;
+                        }
+
+                    .number1 {
+                        background-color: rgba(2,2,2, 0.8);
+                        border-radius: 20px;
+                        color: #fff;
+                        float: right;
+                        font-family: InterstatePlus-Black;
+                        font-size: 9px;
+                        height: 20px;
+                        line-height: 18px;
+                        margin: 105px -136px 0 0;
+                        text-align: center;
+                        width: 20px;
+                    }
+
+                .middle_left_bottom {
+                    background-image: url("images/Best_wine_deals.png");
+                    float: left;
+                    height: 133px;
+                    margin-top: 6px;
+                    width: 233px;
+                }
+
+            .middle_center {
+                background-color: #ffffff;
+                float: left;
+                height: 410px;
+                margin-left: 7px;
+                width: 347px;
+            }
+
+                .tower {
+                    background-image:url("images/tower.png");
+                    float: left;
+                    height: 225px;
+                    margin: 14px;
+                    width: 320px;
+                }
+
+                .tower_top_text {
+                    float: left;
+                    height: 25px;
+                    margin: 9px 0 0 10px;
+                    width: 230px;
+                }
+
+                    .tower_top_text_inf {
+                        color: #6D0024;
+                        float: left;
+                        font-family: Arial;
+                        font-size: 23px;
+                        margin-left: 15px;
+                    }
+
+                    .tower_bottom_text {
+                        color: rgb(149,144,131);
+                        float: left;
+                        font-family:Georgia-Italic;
+                        font-size: 12px ;
+                        height: 92px;
+                        line-height: 18px;
+                        margin: 12px 0 0 28px;
+                        text-align: justify;
+                        width: 290px;
+                    }
+
+            .middle_right {
+                float: left;
+                height: 400px;
+                margin-left: 6px;
+                position: relative;
+                width: 232px;
+            }
+
+                .middle_right_top {
+                    background-image: url("images/Cheese.png");
+                    float: left;
+                    height: 133px;
+                    width: 233px;
+                }
+
+                .middle_right_center {
+                    background-image: url("images/Red_wine.png");
+                    float: left;
+                    height: 133px;
+                    margin-top: 5px;
+                    width: 233px;
+                }
+
+                .middle_right_bottom {
+                    background-image: url("images/The_best_grape.png");
+                    float: left;
+                    height: 133px;
+                    margin-top: 6px;
+                    width: 233px;
+                }
+
+        hr {
+            background-color: rgb(197,190,170);
+            float: left;
+            height: 1px;
+            margin: 40px 0 0 83px;
+            width: 383px;
+        }
+
+        .line_more {
+            float: left;
+            height: 20px;
+            width: 0;
+        }
+
+            .more {
+                color: rgb(149,144,131);
+                float: left;
+                font-family:Georgia-Italic;
+                font-size: 13px ;
+                line-height: 18px;
+                margin: 32px 0 0 18px;
+            }
+            
+            .arrow {
+                background-image: url("images/arrow_bottom.png");
+                float: left;
+                height: 4px;
+                margin: -9px 0 0 54px;
+                width: 9px;
+            }
+
+        .main {
+            float: left;
+            height: 950px;
+            margin: 20px 0 0 84px;
+            position: relative;
+            width: 825px;
+        }
+
+            .main_left {
+                float: left;
+                height: 950px;
+                width: 569px;
+            }
+
+                .main_left_header {
+                    color: #6D0024;
+                    float: left;
+                    font-family: Arial;
+                    font-size: 23px;
+                    margin-top: 14px;
+                }
+
+                .stadium {
+                    background-image: url("images/stadium.png");
+                    float: left;
+                    height: 356px;
+                    margin-top: 20px;
+                    position: relative;
+                    width: 569px;
+                }
+
+                    .stadium_play {
+                        background-image: url("images/play2.png");
+                        float: left;
+                        height: 68px;
+                        margin: 155px 0 0 251px;
+                        position: relative;
+                        width: 68px;
+                    }
+
+                .main_stadium_text {
+                    color: rgb(119,115,103);
+                    float: left;
+                    font-family: Georgia Regular;
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-top: 28px;
+                    text-align: justify;
+                }
+
+                .comments {
+                    float: left;
+                    height: 20px;
+                    margin: 16px 0 0 2px;
+                    width: 569px;
+                }
+
+                    .pages {
+                        float: left;
+                        width: 90px;
+                    }
+
+                        .number2 {
+                            background-color: rgba(43,94,94, 0.8);
+                            border-radius: 20px;
+                            color: #fff;
+                            float: left;
+                            font-family: InterstatePlus-Black;
+                            font-size: 9px;
+                            height: 20px;
+                            line-height: 19px;
+                            text-align: center;
+                            width: 20px;
+                        }
+
+                        .comments1 {
+                            float: left;
+                            font-family: Georgia-Italic;
+                            font-size: 12px;
+                            margin: 3px 0 0 7px;
+                        }
+
+                    .tags {
+                        float: left;
+                        margin-left: 18px;
+                        width: 300px;
+                    }
+
+                        .tags_first {
+                            color: rgb(119,115,103);
+                            float: left;
+                            font-family: Georgia Regular;
+                            font-size: 12px;
+                            line-height: 18px;
+                            margin-top: 1px;
+                            width: 40px;
+                        }
+
+                        .tags_type {
+                            float: left;
+                            font-family: Georgia-Italic;
+                            font-size: 12px;
+                            margin: 2px 0 0 1px;
+                            width: auto;
+                        }
+
+                    .share {
+                        float: left;
+                        margin-left: 34px;
+                        width: 100px;
+                    }
+
+                        .small_icon_facebook {
+                            background-image: url("images/facebook_small.png");
+                            float: left;
+                            height: 16px;
+                            margin: 3px 0 0 6px;
+                            width: 16px;
+                        }
+
+                        .small_icon_twitter {
+                            background-image: url("images/twitter_small.png");
+                            float: left;
+                            height: 16px;
+                            margin: 3px 0 0 5px;
+                            width: 16px;
+                        }
+
+                .wine_image {
+                    background-image: url("images/wine.png");
+                    float: left;
+                    height: 168px;
+                    margin: 25px 0 0 5px;
+                    width: 249px;
+                }
+
+            .main_right {
+                float: left;
+                height: 700px;
+                margin-left: 23px;
+                width: 233px;
+            }
+
+                .main_right_header {
+                    color: #6D0024;
+                    float: left;
+                    font-family: Arial;
+                    font-size: 17px;
+                    margin: 16px 0 0 27px;
+                }
+
+                    .ticket {
+                        background-image: url("images/ticket.png");
+                        float: left;
+                        height: 11px;
+                        margin: 10px 0 0 10px;
+                        width: 15px;
+                    }
+
+                .likes {
+                    float: left;
+                    height: 50px;
+                    margin-top: 2px;
+                    width: 270px;
+                }
+
+                    .likes_block{
+                        float: left;
+                        height: 45px;
+                        margin: 23px 0 0 20px;
+                        width: 50px;
+                    }
+
+                        .likes_facebook {
+                            background-image: url("images/facebook_big.png");
+                            float: left;
+                            height: 32px;
+                            margin: 10px 0 0 10px;
+                            width: 30px;
+                            z-index: 1;
+                        }
+
+                        .likes_people {
+                            background-image: linear-gradient(to top, #F2F2F2 0%, #FFFFFF 100%);
+                            border-radius: 3px;
+                            color: rgb(139,139,139);
+                            float: left;
+                            font-family: HelveticaNeueCyr-Medium;
+                            font-size: 13px;
+                            height: 16px;
+                            margin: -7px 0 0 1px;
+                            text-align: center;
+                            width: 49px;
+                            z-index: 2;
+                        }
+
+                        .likes_twitter {
+                            background-image: url("images/twitter_big.png");
+                            float: left;
+                            height: 31px;
+                            margin: 10px 0 0 10px;
+                            width: 30px;
+                            z-index: 1;
+                        }
+
+                        .likes_feeds {
+                            background-image: url("images/feeds.png");
+                            float: left;
+                            height: 31px;
+                            margin: 10px 0 0 10px;
+                            width: 30px;
+                            z-index: 1;
+                        }
+
+                .most_popular {
+                    float: left;
+                    font-family:Georgia-Italic;
+                    font-size: 11px;
+                    height: 12px;
+                    line-height: 15px;
+                    margin: 16px 0 0 29px;
+                    text-align: justify;
+                    width: 196px;
+                }
+
+            .read_more {
+                background-image: url("images/Read_more.png");
+                float: left;
+                height: 191px;
+                margin: 16px 0 0 30px;
+                width: 191px;
+            }
+
+                .read_more_text {
+                    border-bottom: 1px solid rgb(136,190,190);
+                    color: #fff;
+                    float: left;
+                    font-family:Georgia-Italic;
+                    font-size: 11px;
+                    height: 81px;
+                    line-height: 15px;
+                    margin: 53px 0 0 25px;
+                    text-align: center;
+                    width: 141px;
+                }
+
+                .read_more_popular {
+                    float: left;
+                    font-family:Georgia-Italic;
+                    font-size: 12px;
+                    height: 12px;
+                    line-height: 14px;
+                    margin: 10px 0 0 67px;
+                    text-align: justify;
+                    width: 196px;
+                }
+
+            .bottom {
+                float: left;
+                height: 110px;
+                margin-top: 45px;
+                position: relative;
+                width: 840px;
+            }
+
+                .bottom_left {
+                    float: left;
+                    height: 100px;
+                    width: 175px;
+                }
+
+                    .bottom_left_big_text {
+                        color: #6D0024;
+                        float: left;
+                        font-family: Glasgow-Medium;
+                        font-size: 27px;
+                        margin: 4px 0 0 4px;
+                    }
+
+                    .bottom_left_small_text {
+                        color: rgb(163,155,130);
+                        float: left;
+                        font-family:Georgia-Italic;
+                        font-size: 11px;
+                        height: 13px;
+                        margin: -1px 0 0 15px;
+                    }
+
+                    .social_networks {
+                        float: left;
+                        margin: 22px 0 0 123px;
+                    }
+
+                .bottom_right {
+                    float: left;
+                    height: 110px;
+                    margin: 4px 0 0 54px;
+                    position: relative;
+                    width: 130px;
+                }
+
+                    .bottom_right_big_text {
+                        color: #6D0024;
+                        float: left;
+                        font-family: Arial;
+                        font-size: 13px;
+                        margin: 4px 0 0 4px;
+                    }
+
+                    .bottom_right_small_text {
+                        float: left;
+                        font-family:Georgia-Italic;
+                        font-size: 12px;
+                        height: 4px;
+                        line-height: 18px;
+                        margin: 14px 0 0 9px;
+                    }
